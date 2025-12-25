@@ -171,7 +171,6 @@ export const renderTimeline = (
     const isOdd = index % 2 !== 0;
 
     ctx.font = `bold ${fontSize + 2}px Inter, sans-serif`;
-    const titleWidth = ctx.measureText(event.title).width; // Kept variable definition even if unused
 
     // Connector configuration
     const connectorLength = isHorizontal ? 60 : 80;
