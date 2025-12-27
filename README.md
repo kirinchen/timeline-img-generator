@@ -1,86 +1,87 @@
 
-
-# 🎨 Timeline Image Generator (時間軸產生器)
+# 🎨 Timeline Image Generator
 
 > A Vibe Coding Project powered by Google AI Studio.
-> 輕量級、無需後端的純前端時間軸生成工具。
+> A lightweight, backend-free, pure frontend timeline generation tool.
 
 [![GitHub license](https://img.shields.io/github/license/kirinchen/timeline-img-generator)](https://github.com/kirinchen/timeline-img-generator/blob/main/LICENSE)
 [![GitHub pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-blue?logo=github)](https://kirinchen.github.io/timeline-img-generator/)
 
-**[🚀 立即使用 Live Demo](https://kirinchen.github.io/timeline-img-generator/)**
+**[🚀 Try the Live Demo](https://kirinchen.github.io/timeline-img-generator/)**
 
 ---
 
-## 📖 簡介 (Introduction)
+## 📖 Introduction
 
-**Timeline Image Generator** 是一個基於網頁的工具，專為快速製作專業時間軸圖表而設計。無論你是專案經理、開發者還是內容創作者，只需要輸入時間參數與事件，就能立刻預覽並下載高品質的 PNG 時間軸圖檔。
+**Timeline Image Generator** is a web-based tool designed for quickly creating professional timeline charts. Whether you are a Project Manager, Developer, or Content Creator, simply input time parameters and events to immediately preview and download high-quality PNG images.
 
-本專案採用 **Vibe Coding** 理念開發，由 Prompt Engineer 與 Google AI Studio 協作完成，展示了現代 AI 輔助開發的高效與簡潔。
+This project adopts the **Vibe Coding** philosophy. It was developed in collaboration with a Prompt Engineer and Google AI Studio, demonstrating the efficiency and simplicity of modern AI-assisted development.
 
-## ✨ 特色 (Features)
+## ✨ Features
 
-* **⚡️ 即時預覽 (Real-time Rendering)**：修改參數的同時，Canvas 畫布即時更新，所見即所得。
-* **🛠️ 高度客製化參數**：
-    * 自訂 **起始時間** 與 **結束時間**。
-    * 調整畫布 **長寬尺寸**。
-    * 自由切換 **水平 (Horizontal)** 或 **垂直 (Vertical)** 佈局。
-    * 自訂 **間隔 (Interval)** 顯示邏輯。
-* **🎨 風格與美學**：
-    * 自定義 **主題顏色** 與背景色。
-    * 調整字體大小與版面配置。
-* **🔒 隱私安全**：純前端運作 (HTML5 Canvas + JS)，您的數據完全在瀏覽器內處理，不會上傳至任何伺服器。
-* **💾 一鍵下載**：直接將渲染好的時間軸匯出為 PNG 圖片。
+* **⚡️ Real-time Rendering**: The Canvas updates instantly as you modify parameters. What You See Is What You Get (WYSIWYG).
+* **🛠️ Highly Customizable Parameters**:
+    * Custom **Start Date** and **End Date**.
+    * Adjustable Canvas **Dimensions (Width/Height)**.
+    * Switch between **Horizontal** or **Vertical** layouts.
+    * Customizable **Interval** logic.
+* **🎨 Style & Aesthetics**:
+    * Custom **Theme Colors** and Backgrounds.
+    * Adjustable font sizes and layout settings.
+* **🔒 Privacy & Security**: Pure frontend operation (HTML5 Canvas + JS). Your data is processed entirely within your browser and is never uploaded to any server.
+* **💾 One-Click Download**: Export the rendered timeline directly as a PNG image.
 
-## 🚀 如何使用 (How to Use)
+## 🚀 How to Use
 
-1.  開啟 **[Live Demo](https://kirinchen.github.io/timeline-img-generator/)** 網頁。
-2.  在控制面板設定 **起始/結束日期**。
-3.  調整您想要的 **視覺風格** (顏色、方向)。
-4.  輸入您的關鍵節點與事件。
-5.  點擊 **"Download PNG"** 按鈕，即可獲得圖片！
+1.  Open the **[Live Demo](https://kirinchen.github.io/timeline-img-generator/)**.
+2.  Set the **Start/End Dates** in the control panel.
+3.  Adjust the **Visual Style** (colors, orientation) to your preference.
+4.  Input your key nodes and events.
+5.  Click the **"Download PNG"** button to get your image!
 
-## 🛠️ 技術堆疊 (Tech Stack)
+## 🛠️ Tech Stack
 
 * **Core**: HTML5, JavaScript (ES6+)
 * **Rendering**: HTML5 Canvas API
 * **Styling**: Tailwind CSS (CDN)
 * **AI Assistant**: Google AI Studio (Gemini Models)
 
-## 💻 本地開發 (Local Development)
+## 💻 Local Development
 
-如果你想在本地端運行或修改程式碼：
+If you want to run or modify the code locally:
 
 ```bash
-# Clone 此專案
+# Clone this repository
 git clone [https://github.com/kirinchen/timeline-img-generator.git](https://github.com/kirinchen/timeline-img-generator.git)
 
-# 進入資料夾
+# Navigate to the directory
 cd timeline-img-generator
 
-# 直接用瀏覽器打開 index.html 即可
-# 或使用 VS Code Live Server 啟動
+# Open index.html directly in your browser
+# Or start using VS Code Live Server
 
 ```
 
-## 🤝 貢獻 (Contributing)
+## 🤝 Contributing
 
-歡迎任何形式的貢獻！如果你有新的參數想法（例如：加入 Icon 支援、更多種線條樣式），歡迎提交 Issue 或 Pull Request。
+Contributions are welcome! If you have ideas for new parameters (e.g., Icon support, different line styles), feel free to submit an Issue or a Pull Request.
 
-1.  Fork 本專案
+1.  Fork the Project
     
-2.  建立你的 Feature Branch (`git checkout -b feature/AmazingFeature`)
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
     
-3.  提交修改 (`git commit -m 'Add some AmazingFeature'`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
     
-4.  推送到分支 (`git push origin feature/AmazingFeature`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
     
-5.  開啟 Pull Request
+5.  Open a Pull Request
     
 
+## 📝 License
 
+Distributed under the MIT License. See `LICENSE` for more information.
+
+----------
 
 _Created with ❤️ by [Kirin Chen](https://www.google.com/search?q=https://github.com/kirinchen)_
-
-
 
